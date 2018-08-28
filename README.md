@@ -1,0 +1,32 @@
+First Data IPG Connect Node.js Library
+=====================
+
+This library provides developers with a simple binding for the First Data IPG Connect payment gateway.
+
+To use, download or clone the repository and install with npm.
+
+From your Terminal/Command Line:
+```
+git clone https://github.com/BrightOcansey/node-ipg-connect.git
+npm install node-ipg-connect
+```
+
+You can require the module and setup the Connect object with the options.
+
+Example:
+
+```javascript
+// Require the module
+var Connect = require('node-ipg-connect');
+
+// Replace the test credentials your IPG Connect credentials
+
+var ipg = new Connect({
+    storeid: "5412300026",                     // Store Id is required, replace 5412300026 with your IPG provided Store Id
+    sharedsecrets: "sharedsecret",             // Shared Secret is required, replace sharedsecert with your IP provided Shared Secret
+    successURL: "https://www.firstdata.com",   // Replace firstdata.com with your store URL to redirect customer after a succesfull payment
+    failURL: "https://www.firstdata.com",      // Replace firstdata.com with your store URL to redirect customer after failed/declined payment
+    sandbox: true                              // Set to 'true' for testing and 'false' for Live- Use the correct test or live credentials
+});
+
+Please visit the Wiki page to learn how to build IPG Connect payment app using Nodejs and Express with the node-ipg-connect module.

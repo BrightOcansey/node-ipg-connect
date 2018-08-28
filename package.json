@@ -1,0 +1,27 @@
+{
+  "name": "node-ipg-connect",
+  "version": "1.0.0",
+  "description": "A node.js package for First Data Connect Internet Payment Gateway",
+  "main": "lib/connect.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrightOcansey/node-ipg-connect.git"
+  },
+  "keywords": [
+    "first",
+    "data",
+    "ipg",
+    "connect"
+  ],
+  "author": "Bright Ocansey <bright.ocansey@gmail.com>",
+  "license": "ISC",
+  "engines": {
+        "node": ">= v0.8.0"
+    },
+    "devDependencies": {
+        "mocha": "~1.13.0"
+    },
+    "dependencies": {
+        "request": "2.x.x"
+    }
+}
