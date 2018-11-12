@@ -29,4 +29,4 @@ var ipg = new Connect({
     sandbox: true                              // Set to 'true' for testing and 'false' for Live- Use the correct test or live credentials
 });
 
-Please visit the [Wiki page](https://github.com/BrightOcansey/node-ipg-connect/wiki/Node-IPG-Connect/) for a quick tutorial on how to build a simple IPG Connect payment app using Nodejs and Express with the node-ipg-connect module.
+Please visit the [Wiki page](http://github.com/BrightOcansey/node-ipg-connect/wiki/Node-IPG-Connect/) for a quick tutorial on how to build a simple IPG Connect payment app using Nodejs and Express with the node-ipg-connect module.
