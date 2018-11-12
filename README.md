@@ -28,5 +28,5 @@ var ipg = new Connect({
     failURL: "https://www.firstdata.com",      // Replace firstdata.com with your store URL to redirect customer after failed/declined payment
     sandbox: true                              // Set to 'true' for testing and 'false' for Live- Use the correct test or live credentials
 });
-
-Please visit the [Wiki page](http://github.com/BrightOcansey/node-ipg-connect/wiki/Node-IPG-Connect/) for a quick tutorial on how to build a simple IPG Connect payment app using Nodejs and Express with the node-ipg-connect module.
+```
+Please visit the [wiki](https://github.com/BrightOcansey/node-ipg-connect/wiki/Node-IPG-Connect/) for a quick tutorial on how to build a simple IPG Connect payment app using Nodejs and Express with the node-ipg-connect module.
