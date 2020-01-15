@@ -22,8 +22,8 @@ var Connect = require('node-ipg-connect');
 // Replace the test credentials your IPG Connect credentials
 
 var ipg = new Connect({
-    storeid: "5412300026",                     // Store Id is required, replace 5412300026 with your Store Id
-    sharedsecret: "sharedsecret",             // Shared Secret is required, replace sharedsecert with your Shared Secret
+    storeid: "11111111111",                     // Store Id is required, replace '11111111111' with your Store Id
+    sharedsecret: "sharedsecret",             // Shared Secret is required, replace 'sharedsecert' with your Shared Secret
     successURL: "https://www.firstdata.com",   // Replace firstdata.com with your store URL to redirect customer after a succesfull payment
     failURL: "https://www.firstdata.com",      // Replace firstdata.com with your store URL to redirect customer after failed/declined payment
     sandbox: true                              // Set to 'true' for testing and 'false' for Live- Use the correct test or live credentials
